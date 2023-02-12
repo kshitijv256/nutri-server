@@ -1,6 +1,5 @@
 import os
-from flask import Flask, flash, jsonify, request, redirect, url_for
-from werkzeug.utils import secure_filename
+from flask import Flask, flash, jsonify, request
 
 import pandas as pd 
 import matplotlib.pyplot as plt
