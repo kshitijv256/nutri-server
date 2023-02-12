@@ -1,8 +1,7 @@
 import os
 from flask import Flask, flash, jsonify, request
 
-import pandas as pd 
-import matplotlib.pyplot as plt
+import pandas as pd
 import csv 
 from urllib.parse import urlparse
 from urllib.parse import parse_qs
